@@ -25,11 +25,6 @@
     align-items: center;
 }
 
-.header-top p {
-    color: #f9faf8;
-    font-size: 24px;
-}
-
 .links {
     display: flex;
     gap: 16px;
@@ -42,6 +37,8 @@
 }
 
 .logo {
+    color: #f9faf8;
+    font-size: 24px;
     margin-right: auto;
 }
 
@@ -50,16 +47,15 @@
     display: flex;
 }
 
-.header-bottom .left-side {
-    flex-basis: 45%;
-}
-
-.header-bottom .right-side {
-    flex-basis: 55%;
+.header-bottom > div {
+    flex-basis: 50%;
 }
 
 .left-side {
-    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
 }
 
 .left-side h1 {
@@ -68,16 +64,19 @@
     font-weight: bolder;
 }
 
+.left-side p {
+    padding: 4px 0 8px; 
+}
+
 .left-side button {
+    align-self: flex-start;
     padding: 8px 32px;
     margin-bottom: 0;
+    border: none;
+    border-radius: 8px;
     background-color: #3882f6;
     color: white;
     font-size: 20px;
-}
-
-.left-side * {
-    margin-bottom: 12px;
 }
 
 .right-side,
