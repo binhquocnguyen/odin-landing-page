@@ -47,6 +47,7 @@
 .header-bottom {
     flex: 1;
     display: flex;
+    gap: 16px;
 }
 
 .header-bottom > div {
