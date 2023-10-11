@@ -139,3 +139,33 @@
     font-size: 18px;
     text-align: center;
 }
+
+/* Quote's styling */
+.quote-container {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 900px;
+    height: 450px;
+}
+
+.quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    margin: 36px 0 8px;
+}
+
+.author {
+    align-self: flex-end;
+    color: #1f2937;
+    font-size: 28px;
+    font-weight: bold;
+    margin-right: 54px; 
+}
